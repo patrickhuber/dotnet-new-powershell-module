@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Patrick Huber",
+    "classifications": [ "Code" ],
+    "identity": "PowershellBinaryModule",
+    "name": "Powershell Binary Module",
+    "shortName": "psmbinary",
+    "sourceName":"psmbinary",
+    "tags": {
+      "language": "powershell",
+      "type": "project"
+    },
+    "guids": [
+      "8cc360a7-b68e-4d64-abd8-620d5618f98f"
+    ]
+  }

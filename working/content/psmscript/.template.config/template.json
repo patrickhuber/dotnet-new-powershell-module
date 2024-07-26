@@ -9,5 +9,8 @@
     "tags": {
       "language": "powershell",
       "type": "project"
-    }
+    },
+    "guids": [
+      "a1cb469c-1e8c-4392-8e97-35a324eaf342"
+    ]
   }
