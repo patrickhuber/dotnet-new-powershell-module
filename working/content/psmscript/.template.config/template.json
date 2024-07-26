@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Patrick Huber",
+    "classifications": [ "Code" ],
+    "identity": "PowershellScriptModule",
+    "name": "Powershell Script Module",
+    "shortName": "psmscript",
+    "sourceName":"psmscript",
+    "tags": {
+      "language": "powershell",
+      "type": "project"
+    }
+  }
