@@ -6,6 +6,7 @@ See the following documentation on creating powershell modules:
 
 1. https://learn.microsoft.com/en-us/powershell/scripting/developer/module/how-to-write-a-powershell-script-module?view=powershell-7.4
 2. https://learn.microsoft.com/en-us/powershell/scripting/developer/module/how-to-write-a-powershell-binary-module?view=powershell-7.4
+3. https://learn.microsoft.com/en-us/powershell/scripting/dev-cross-plat/create-standard-library-binary-module?view=powershell-7.4
 
 ## Install
 
@@ -44,4 +45,20 @@ see: https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-creat
 see: https://learn.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-template-package?pivots=dotnet-8-0#uninstall-the-template-package
 
 ```powerhell
+```
+
+## Use
+
+First, install the templates using one of the methods above
+
+### Create a Binary Powershell Module
+
+```powershell
+dotnet new psmscript --name MyPowershellScriptModule
+```
+
+### Create a Script Powershell Module
+
+```powershell
+dotnet new psmbinary --name MyPowershellBinaryModule
 ```

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "working", "working", "{168D358B-CB62-4D59-ACCB-C7B6697554A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{71B43707-F94C-4454-8A29-7802053B4023}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "psmbinary", "psmbinary", "{93668E7A-DC65-4AD7-8A3F-3B122EAA5278}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "psmbinary", "working\content\psmbinary\src\psmbinary.csproj", "{541E7A86-F0B9-4FC4-816E-86116D2C96B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{541E7A86-F0B9-4FC4-816E-86116D2C96B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541E7A86-F0B9-4FC4-816E-86116D2C96B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541E7A86-F0B9-4FC4-816E-86116D2C96B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541E7A86-F0B9-4FC4-816E-86116D2C96B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71B43707-F94C-4454-8A29-7802053B4023} = {168D358B-CB62-4D59-ACCB-C7B6697554A2}
+		{93668E7A-DC65-4AD7-8A3F-3B122EAA5278} = {71B43707-F94C-4454-8A29-7802053B4023}
+		{541E7A86-F0B9-4FC4-816E-86116D2C96B0} = {93668E7A-DC65-4AD7-8A3F-3B122EAA5278}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92E6AE04-6F2B-432F-A287-D07A03FD24B8}
+	EndGlobalSection
+EndGlobal
